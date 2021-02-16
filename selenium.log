@@ -1,0 +1,178 @@
+2021-02-16 11:55:13 DEBUG TestBase:46 - launching the browser and application
+2021-02-16 11:55:13 INFO  TestBase:29 - Create object for Properties
+2021-02-16 11:55:13 DEBUG TestBase:31 - read the properties file
+2021-02-16 11:55:13 INFO  TestBase:34 - load all the properties
+2021-02-16 11:55:16 DEBUG TestBase:62 - maximize the window
+2021-02-16 11:55:16 DEBUG TestBase:64 - add implicit wait
+2021-02-16 11:55:16 DEBUG TestBase:66 - Create an Object for WebDriverWait- for explicit wait
+2021-02-16 11:55:16 DEBUG TestBase:68 - open the application url
+2021-02-16 11:55:16 INFO  TestBase:29 - Create object for Properties
+2021-02-16 11:55:16 DEBUG TestBase:31 - read the properties file
+2021-02-16 11:55:16 INFO  TestBase:34 - load all the properties
+2021-02-16 11:55:17 DEBUG SearchDataDrivenTest:29 - Instantiate the Pages classes
+2021-02-16 11:55:17 DEBUG SearchDataDrivenTest:33 - calling for title verification
+2021-02-16 11:55:17 DEBUG LinkedinHomePage:42 - wait for the linkedin home page title
+2021-02-16 11:55:18 DEBUG LinkedinHomePage:48 - wait for the Linkedin logo
+2021-02-16 11:55:18 DEBUG LinkedinHomePage:54 - click on signin link
+2021-02-16 11:55:18 DEBUG BasePageWeb:47 - Wait for the element to be clickble or not
+2021-02-16 11:55:18 DEBUG BasePageWeb:49 - Click on the given element
+2021-02-16 11:55:19 DEBUG LinkedinHomePage:66 - wait for the SignIn Header Text
+2021-02-16 11:55:19 DEBUG SearchDataDrivenTest:39 - processing to login page
+2021-02-16 11:55:19 INFO  TestBase:29 - Create object for Properties
+2021-02-16 11:55:19 DEBUG TestBase:31 - read the properties file
+2021-02-16 11:55:19 INFO  TestBase:34 - load all the properties
+2021-02-16 11:55:19 INFO  TestBase:29 - Create object for Properties
+2021-02-16 11:55:19 DEBUG TestBase:31 - read the properties file
+2021-02-16 11:55:19 INFO  TestBase:34 - load all the properties
+2021-02-16 11:55:19 DEBUG LinkedinHomePage:77 - Login process started.......
+2021-02-16 11:55:20 DEBUG LinkedinHomePage:72 - click on signin button
+2021-02-16 11:55:20 DEBUG BasePageWeb:47 - Wait for the element to be clickble or not
+2021-02-16 11:55:20 DEBUG BasePageWeb:49 - Click on the given element
+2021-02-16 11:55:25 DEBUG LinkedInLoggedInPage:33 - wait for the profile rail card
+2021-02-16 11:55:25 DEBUG ExcelUtils:29 - Specify the path of file :C:\Users\91991\eclipse-workspace\HybridFrameworkFeb62021\src\test\java\com\qa\linkedin\data\searchdata.xlsx
+2021-02-16 11:55:25 DEBUG ExcelUtils:32 - read the file
+2021-02-16 11:55:25 DEBUG ExcelUtils:34 - Load workbook
+2021-02-16 11:55:26 DEBUG ExcelUtils:39 - fetch the row count
+2021-02-16 11:55:26 DEBUG ExcelUtils:41 - number of rows in the excel sheet is-->5
+2021-02-16 11:55:26 DEBUG ExcelUtils:43 - number of columns in the excel sheet is -->1
+2021-02-16 11:55:26 DEBUG SearchDataDrivenTest:53 - start searching for the peopleRamesh
+2021-02-16 11:55:26 DEBUG LinkedInLoggedInPage:45 - Perform the People search
+2021-02-16 11:55:29 DEBUG LinkedInLoggedInPage:48 - Press the enter key to search for the search keyword
+2021-02-16 11:55:29 DEBUG SearchResultsPage:30 - wait for the searchResultsPageTitle..
+2021-02-16 11:55:31 DEBUG SearchResultsPage:36 - Perform fetching the results count for the given people
+2021-02-16 11:55:31 DEBUG BasePageWeb:47 - Wait for the element to be clickble or not
+2021-02-16 11:55:31 DEBUG BasePageWeb:49 - Click on the given element
+2021-02-16 11:55:31 DEBUG SearchResultsPage:45 - wait for the Search results text
+2021-02-16 11:55:32 DEBUG SearchResultsPage:47 - Get the search results text from the web page 
+2021-02-16 11:55:32 DEBUG SearchResultsPage:51 - Results count in String format..269,000
+2021-02-16 11:55:32 DEBUG SearchResultsPage:53 - covert string in long integer fromat
+2021-02-16 11:55:32 DEBUG SearchDataDrivenTest:57 - search results forRamesh are: 269000
+2021-02-16 11:55:32 DEBUG SearchDataDrivenTest:58 - click on home tab to go for Loggin page
+2021-02-16 11:55:32 DEBUG SearchResultsPage:59 - click on Home icon
+2021-02-16 11:55:32 DEBUG BasePageWeb:63 - Wait for the element to be clickble or not
+2021-02-16 11:55:32 DEBUG BasePageWeb:66 - Click on the element using java script click
+2021-02-16 11:55:33 DEBUG SearchDataDrivenTest:60 - *************Iteration done******************
+2021-02-16 11:55:33 DEBUG SearchDataDrivenTest:53 - start searching for the peopleRajesh
+2021-02-16 11:55:33 DEBUG LinkedInLoggedInPage:45 - Perform the People search
+2021-02-16 11:55:36 DEBUG LinkedInLoggedInPage:48 - Press the enter key to search for the search keyword
+2021-02-16 11:55:36 DEBUG SearchResultsPage:30 - wait for the searchResultsPageTitle..
+2021-02-16 11:55:38 DEBUG SearchResultsPage:36 - Perform fetching the results count for the given people
+2021-02-16 11:55:38 DEBUG BasePageWeb:47 - Wait for the element to be clickble or not
+2021-02-16 11:55:38 DEBUG BasePageWeb:49 - Click on the given element
+2021-02-16 11:55:38 DEBUG SearchResultsPage:45 - wait for the Search results text
+2021-02-16 11:55:39 DEBUG SearchResultsPage:47 - Get the search results text from the web page 
+2021-02-16 11:55:39 DEBUG SearchResultsPage:51 - Results count in String format..388,000
+2021-02-16 11:55:39 DEBUG SearchResultsPage:53 - covert string in long integer fromat
+2021-02-16 11:55:39 DEBUG SearchDataDrivenTest:57 - search results forRajesh are: 388000
+2021-02-16 11:55:39 DEBUG SearchDataDrivenTest:58 - click on home tab to go for Loggin page
+2021-02-16 11:55:39 DEBUG SearchResultsPage:59 - click on Home icon
+2021-02-16 11:55:39 DEBUG BasePageWeb:63 - Wait for the element to be clickble or not
+2021-02-16 11:55:39 DEBUG BasePageWeb:66 - Click on the element using java script click
+2021-02-16 11:55:40 DEBUG SearchDataDrivenTest:60 - *************Iteration done******************
+2021-02-16 11:55:40 DEBUG SearchDataDrivenTest:53 - start searching for the peopleMadhu
+2021-02-16 11:55:40 DEBUG LinkedInLoggedInPage:45 - Perform the People search
+2021-02-16 11:55:43 DEBUG LinkedInLoggedInPage:48 - Press the enter key to search for the search keyword
+2021-02-16 11:55:43 DEBUG SearchResultsPage:30 - wait for the searchResultsPageTitle..
+2021-02-16 11:55:45 DEBUG SearchResultsPage:36 - Perform fetching the results count for the given people
+2021-02-16 11:55:45 DEBUG BasePageWeb:47 - Wait for the element to be clickble or not
+2021-02-16 11:55:45 DEBUG BasePageWeb:49 - Click on the given element
+2021-02-16 11:55:45 DEBUG SearchResultsPage:45 - wait for the Search results text
+2021-02-16 11:55:46 DEBUG SearchResultsPage:47 - Get the search results text from the web page 
+2021-02-16 11:55:46 DEBUG SearchResultsPage:51 - Results count in String format..92,000
+2021-02-16 11:55:46 DEBUG SearchResultsPage:53 - covert string in long integer fromat
+2021-02-16 11:55:46 DEBUG SearchDataDrivenTest:57 - search results forMadhu are: 92000
+2021-02-16 11:55:46 DEBUG SearchDataDrivenTest:58 - click on home tab to go for Loggin page
+2021-02-16 11:55:46 DEBUG SearchResultsPage:59 - click on Home icon
+2021-02-16 11:55:46 DEBUG BasePageWeb:63 - Wait for the element to be clickble or not
+2021-02-16 11:55:46 DEBUG BasePageWeb:66 - Click on the element using java script click
+2021-02-16 11:55:47 DEBUG SearchDataDrivenTest:60 - *************Iteration done******************
+2021-02-16 11:55:47 DEBUG SearchDataDrivenTest:53 - start searching for the peopleJyotsna
+2021-02-16 11:55:47 DEBUG LinkedInLoggedInPage:45 - Perform the People search
+2021-02-16 11:55:50 DEBUG LinkedInLoggedInPage:48 - Press the enter key to search for the search keyword
+2021-02-16 11:55:50 DEBUG SearchResultsPage:30 - wait for the searchResultsPageTitle..
+2021-02-16 11:55:52 DEBUG SearchResultsPage:36 - Perform fetching the results count for the given people
+2021-02-16 11:55:52 DEBUG BasePageWeb:47 - Wait for the element to be clickble or not
+2021-02-16 11:55:52 DEBUG BasePageWeb:49 - Click on the given element
+2021-02-16 11:55:52 DEBUG SearchResultsPage:45 - wait for the Search results text
+2021-02-16 11:55:53 DEBUG SearchResultsPage:47 - Get the search results text from the web page 
+2021-02-16 11:55:53 DEBUG SearchResultsPage:51 - Results count in String format..15,000
+2021-02-16 11:55:53 DEBUG SearchResultsPage:53 - covert string in long integer fromat
+2021-02-16 11:55:53 DEBUG SearchDataDrivenTest:57 - search results forJyotsna are: 15000
+2021-02-16 11:55:53 DEBUG SearchDataDrivenTest:58 - click on home tab to go for Loggin page
+2021-02-16 11:55:53 DEBUG SearchResultsPage:59 - click on Home icon
+2021-02-16 11:55:53 DEBUG BasePageWeb:63 - Wait for the element to be clickble or not
+2021-02-16 11:55:53 DEBUG BasePageWeb:66 - Click on the element using java script click
+2021-02-16 11:55:53 DEBUG SearchDataDrivenTest:60 - *************Iteration done******************
+2021-02-16 11:55:53 DEBUG SearchDataDrivenTest:53 - start searching for the peopleRadhika
+2021-02-16 11:55:53 DEBUG LinkedInLoggedInPage:45 - Perform the People search
+2021-02-16 11:55:57 DEBUG LinkedInLoggedInPage:48 - Press the enter key to search for the search keyword
+2021-02-16 11:55:57 DEBUG SearchResultsPage:30 - wait for the searchResultsPageTitle..
+2021-02-16 11:55:58 DEBUG SearchResultsPage:36 - Perform fetching the results count for the given people
+2021-02-16 11:55:58 DEBUG BasePageWeb:47 - Wait for the element to be clickble or not
+2021-02-16 11:55:58 DEBUG BasePageWeb:49 - Click on the given element
+2021-02-16 11:55:59 DEBUG SearchResultsPage:45 - wait for the Search results text
+2021-02-16 11:56:00 DEBUG SearchResultsPage:47 - Get the search results text from the web page 
+2021-02-16 11:56:00 DEBUG SearchResultsPage:51 - Results count in String format..47,000
+2021-02-16 11:56:00 DEBUG SearchResultsPage:53 - covert string in long integer fromat
+2021-02-16 11:56:00 DEBUG SearchDataDrivenTest:57 - search results forRadhika are: 47000
+2021-02-16 11:56:00 DEBUG SearchDataDrivenTest:58 - click on home tab to go for Loggin page
+2021-02-16 11:56:00 DEBUG SearchResultsPage:59 - click on Home icon
+2021-02-16 11:56:00 DEBUG BasePageWeb:63 - Wait for the element to be clickble or not
+2021-02-16 11:56:00 DEBUG BasePageWeb:66 - Click on the element using java script click
+2021-02-16 11:56:00 DEBUG SearchDataDrivenTest:60 - *************Iteration done******************
+2021-02-16 11:56:00 DEBUG SearchDataDrivenTest:46 - Perform the logout opration from the application
+2021-02-16 11:56:00 DEBUG LinkedInLoggedInPage:39 - Perform the logout operation....
+2021-02-16 11:56:00 DEBUG BasePageWeb:47 - Wait for the element to be clickble or not
+2021-02-16 11:56:00 DEBUG BasePageWeb:49 - Click on the given element
+2021-02-16 11:56:00 DEBUG BasePageWeb:47 - Wait for the element to be clickble or not
+2021-02-16 11:56:01 DEBUG BasePageWeb:49 - Click on the given element
+2021-02-16 11:56:02 DEBUG LinkedinHomePage:42 - wait for the linkedin home page title
+2021-02-16 11:56:02 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2021-02-16 11:56:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2021-02-16 11:56:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2021-02-16 11:56:02 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/91991/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2021-02-16 11:56:02 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2021-02-16 11:56:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2021-02-16 11:56:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2021-02-16 11:56:02 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/91991/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2021-02-16 11:56:02 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2021-02-16 11:56:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2021-02-16 11:56:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2021-02-16 11:56:02 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/91991/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2021-02-16 11:56:02 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-02-16 11:56:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2021-02-16 11:56:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2021-02-16 11:56:02 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/91991/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2021-02-16 11:56:02 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2021-02-16 11:56:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2021-02-16 11:56:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2021-02-16 11:56:02 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/91991/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2021-02-16 11:56:02 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2021-02-16 11:56:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2021-02-16 11:56:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2021-02-16 11:56:02 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/91991/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2021-02-16 11:56:02 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-02-16 11:56:02 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-02-16 11:56:02 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-02-16 11:56:02 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-02-16 11:56:02 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-02-16 11:56:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2021-02-16 11:56:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2021-02-16 11:56:02 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/91991/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2021-02-16 11:56:02 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-02-16 11:56:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2021-02-16 11:56:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2021-02-16 11:56:02 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/91991/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2021-02-16 11:56:02 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-02-16 11:56:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2021-02-16 11:56:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2021-02-16 11:56:02 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/91991/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2021-02-16 11:56:02 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-02-16 11:56:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2021-02-16 11:56:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2021-02-16 11:56:02 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/91991/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2021-02-16 11:56:02 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-02-16 11:56:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2021-02-16 11:56:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2021-02-16 11:56:02 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/91991/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2021-02-16 11:56:02 DEBUG TestBase:75 - close the browser
